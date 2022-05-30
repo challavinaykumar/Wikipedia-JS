@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+}
+
+img {
+    width: 20%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form{
+    position: relative;
+}
+
+form button{
+    position: absolute;
+    right: 1rem;
+    top: 0.4rem;
+    border: none;
+    outline: none;
+}
+
+form i{
+    font-size: 1.7rem;
+    color: var(--light-blue);
+}
+
+.hide{
+    display: none;
+}
